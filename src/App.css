@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.m5 {margin:5px;}
+.m10 {margin:10px;}
+.m20 {margin:20px;}
+.m30 {margin:20px;}
+
+.mt5 {margin-top: 5px;}
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mt50 {margin-top: 50px;}
+.mt75 {margin-top: 75px;}
+
+.mb5 {margin-bottom: 5px;}
+.mb10 {margin-bottom: 10px;}
+.mb20 {margin-bottom: 20px;}
+.mb30 {margin-bottom: 30px;}
+.mb40 {margin-bottom: 40px;}
+.mb50 {margin-bottom: 50px;}
+
+
+.ml50 {margin-left: 50px;}
+
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1e2a44;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text button{
+  margin:10px;
+}
+
+.container-box:hover .overlay {
+  opacity: 0.8;
+}
+
+.ticket-box{
+  width: 100%;
+  height: 50px;
+  background: #b8cdce;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ticket-box p{
+  padding: 12px;
+}
+
+.box.green {
+  background-color: green; 
+}
+
+.movie_details_body{
+  background: #1d2124;
+  height: 300px;
+}
+
+.cover-img{
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+
+.cover-img img{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  display: initial;
+}
+
+.text-white {
+  color: white;
+}
+
+.title-details{
+  margin-top: 10%;
+  text-align: left;
+}
+
+.sub-details{
+  text-align: left;
+    margin-top: 35px;
+}
+
+.cast span{
+      border: 0.5px solid green;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
